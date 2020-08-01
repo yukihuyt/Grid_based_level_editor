@@ -1,25 +1,30 @@
 # Grid Based 2D Level Editor Demo :space_invader:
 
-This is a tiny demo made by [Godot engine](https://godotengine.org/) to check what I learnt about Godot from scratch in 12 days, and definitely, to have fun :wink: The idea of this demo's UX and functionality design was inspired by a lot simulation or tycoon games.
+This is a tiny demo made by [Godot engine](https://godotengine.org/) to check what I learned about Godot from scratch in 12 days, and definitely, to have fun :wink: The idea of this demo's UX and functionality design was inspired by a lot simulation or tycoon games.
 
-#### Try it!
+Thanks to [GDQuest](https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ), which is an amazing channel upload videos frequently about basic and pro knowledge of Godot, along with some interesting little projects. I learned a lot by watching their videos and if you are confused about how to start learning Godot, go check their channel!
+
+
+#### Try the demo!
 To try and maybe modify it then apply to your own project, you first need to download and install the open-source [Godot game engine](https://godotengine.org/download/windows). Then import the `project.godot` file into the engine. Then you can open and test the project in Godot.
 
 Here's what I got as results:
-Select the object from Item Menu, mouse left click on the available area on grid map to place a item. If overlapping detect, an alert massage will pop up and placement not allowed.
+Select the object from Item Menu, mouse left click on the available area on the grid map to place an item. If overlapping detects, an alert message will pop up and placement not allowed.
 <br/>
 
 ![results showcase 01](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/001.gif)
 
-<br/>
+<br>
+
 Press `delete` to change the cursor sprite to the trash bin icon, while the `delete` is pressed, mouse left click on an existed item will remove it from current grid map.
-<br/>
+
+<br>
 
 ![results showcase 02](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/002.gif)
 
 
-<br/>
-<br/>
+<br>
+<br>
 
 ## Implementation Details
 Code structure:
@@ -41,14 +46,15 @@ The `Item_object` stores 2 textures of one item which will be used for the mouse
 The function `_item_clicked` will be triggered when the item in `ItemMenu` is clicked. It will deliver textures and instantiable node of the selected item to the `Editor` for further calculation and updating.
 
 The whole process of placing an item on the grid map can be described as:
-<br/>
+<br>
 
 ![item placement logics](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/item_placement.png)
 
-<br/>
-<br/>
+<br>
 
 ## What I learnt
+With this small demo project, I have my first impression of how we should design the code architecture for a game project (especially level editor). Although this is a small project, we can extend this structure with new classes or inherit and extend current classes as well if needed.
 
+Since Godot has offered all those useful well-designed classes, I do not need to write them on my own, but I did get some inspiration for what kind of classes are necessary or helpful for a level editor. So next time if I need to implement the same or similar functions using another engine or even I need to write part of a new engine, I know what classes I need to design and create then.
 
-
+Besides, I learned how the scripts connect to and interact with the base classes which were commonly written in other languages (like C++ or C#). I learned the built-in script language gd-script within one day and then can smoothly write codes using it. I believe this shows that I can acquire sufficient fluency of one new script language (like Lua or Go) in a short time, then start to use it in the working project on hand in the future.
