@@ -1,4 +1,4 @@
-#Grid Based 2D Level Editor Demo
+# Grid Based 2D Level Editor Demo
 
 This is a tiny demo made by [Godot engine](https://godotengine.org/) to check what I learnt about Godot in 12 days, and definitely, to have fun :D The idea of this demo's UX and functionality design was inspired by a lot simulation or tycoon games.
 
@@ -9,11 +9,11 @@ Select the object from Item Menu, mouse left click on the available area on grid
 ![results showcase 01](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/001.gif)
 
 Press `delete` to change the cursor sprite to the trash bin icon, while the `delete` is pressed, mouse left click on an existed object will remove it from current grid map.
-![results showcase 02](yukihuyt/Grid_based_level_editor/doc_resources/002.gif)
+![results showcase 02](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/002.gif)
 
 
 
-##Implementation Details
+## Implementation Details
 Code structure(the view shown in Godot engine):
 
 

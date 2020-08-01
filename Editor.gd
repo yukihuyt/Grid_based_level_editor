@@ -9,8 +9,6 @@ onready var cursor_sprite = get_node("Sprite")
 onready var poped_message = get_node("PopupDialog")
 onready var poped_timer = get_node("PopupDialog/Timer")
 
-onready var SELECT_MODE = false
-onready var DELETE_MODE = false
 
 const half_vec = Vector2(0.5, 0.5)
 const unit_vec = Vector2(1, 1)
@@ -105,28 +103,22 @@ func _process(delta):
 	if(current_item != null):
 		arrange_sprite(object_size)
 	
-	if SELECT_MODE and current_item:
-		current_item = null
-		cursor_sprite.texture = null
-	
 	
 	#Left mouse click to place object on grid map
 	if Input.is_action_just_pressed("mouse_left"):
-		if (!SELECT_MODE) and current_item:
-			if (new_grid_pos.x < grid_size.x and new_grid_pos.y < grid_size.y):
-				
-				if(!is_cell_filled(grid, adjust_glo_pos, object_size)):
-					var new_item = current_item.instance(1)
-	#					new_item.set_owner(room)
-					room.add_child(new_item)
-					var new_obj = room.get_children()[-1]
-					new_item.global_position = adjust_glo_pos
-					add_child_pos(grid, obj_dict, adjust_glo_pos, object_size, new_obj)
-				
-				else:
-					poped_message.set_global_position(global_position)
-					poped_message.visible = true
-					poped_timer.start(1)
+		if (new_grid_pos.x < grid_size.x and new_grid_pos.y < grid_size.y) and current_item:
+			if(!is_cell_filled(grid, adjust_glo_pos, object_size)):
+				var new_item = current_item.instance(1)
+#					new_item.set_owner(room)
+				room.add_child(new_item)
+				var new_obj = room.get_children()[-1]
+				new_item.global_position = adjust_glo_pos
+				add_child_pos(grid, obj_dict, adjust_glo_pos, object_size, new_obj)
+			
+			else:
+				poped_message.set_global_position(global_position)
+				poped_message.visible = true
+				poped_timer.start(1)
 #					print("Can't place overlapping objects.")
 			
 			
