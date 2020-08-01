@@ -53,8 +53,13 @@ The whole process of placing an item on the grid map can be described as:
 <br>
 
 ## What I learnt
-With this small demo project, I have my first impression of how we should design the code architecture for a game project (especially level editor). Although this is a small project, we can extend this structure with new classes or inherit and extend current classes as well if needed.
+###### Gameplay code architecture
+With this small demo project, I have my first impression of how we should design the code structure of gameplay for a possible simulation or tycoon game. Although this is a small project, if needed, we can extend this level editor's structure with new classes or inherit and extend current classes as well for a whole indie game or game with level editor as the main part. 
 
+I can imagine that for a huge project, the code architecture can be complex and massive. But with this experience, I have more confidence to try to build a larger, more complicated and robust one in the future.
+
+###### OOP design
 Since Godot has offered all those useful well-designed classes, I do not need to write them on my own, but I did get some inspiration for what kind of classes are necessary or helpful for a level editor. So next time if I need to implement the same or similar functions using another engine or even I need to write part of a new engine, I know what classes I need to design and create then.
 
-Besides, I learned how the scripts connect to and interact with the base classes which were commonly written in other languages (like C++ or C#). I learned the built-in script language gd-script within one day and then can smoothly write codes using it. I believe this shows that I can acquire sufficient fluency of one new script language (like Lua or Go) in a short time, then start to use it in the working project on hand in the future.
+###### Interactions between scripting language and base part
+Besides, I learned how the scripts connect to and interact with the base classes which were commonly written in other languages (like C++ or C#). I learned the built-in scripting language gd-script within one day and then can smoothly write codes using it. I believe this shows that I can acquire sufficient fluency of one new scripting language (like Lua or Go) in a short time, then start to use it in the working project on hand in the future.
