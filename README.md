@@ -2,6 +2,7 @@
 
 This is a tiny demo made by [Godot engine](https://godotengine.org/) to check what I learnt about Godot from scratch in 12 days, and definitely, to have fun :wink: The idea of this demo's UX and functionality design was inspired by a lot simulation or tycoon games.
 
+#### Try it!
 To try and maybe modify it then apply to your own project, you first need to download and install the open-source [Godot game engine](https://godotengine.org/download/windows). Then import the `project.godot` file into the engine. Dah, run it!
 
 Here's what I got as results:
@@ -12,10 +13,14 @@ Press `delete` to change the cursor sprite to the trash bin icon, while the `del
 ![results showcase 02](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/002.gif)
 
 
-
+<br/>
+<br/>
+---
 ## Implementation Details
 Code structure:
 ![code structure](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/structure1.png)
+
+
 
 The demo mainly implemented these things:
 * 2D grid-based map system
