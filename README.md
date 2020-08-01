@@ -8,17 +8,18 @@ To try and maybe modify it then apply to your own project, you first need to dow
 Here's what I got as results:
 Select the object from Item Menu, mouse left click on the available area on grid map to place a item. If overlapping detect, an alert massage will pop up and placement not allowed.
 <br/>
+
 ![results showcase 01](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/001.gif)
 
 <br/>
 Press `delete` to change the cursor sprite to the trash bin icon, while the `delete` is pressed, mouse left click on an existed item will remove it from current grid map.
 <br/>
+
 ![results showcase 02](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/002.gif)
 
 
 <br/>
 <br/>
---- 
 
 ## Implementation Details
 Code structure:
@@ -41,7 +42,13 @@ The function `_item_clicked` will be triggered when the item in `ItemMenu` is cl
 
 The whole process of placing an item on the grid map can be described as:
 <br/>
+
 ![item placement logics](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/item_placement.png)
+
+<br/>
+<br/>
+
+## What I learnt
 
 
 
