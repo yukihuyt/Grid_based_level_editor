@@ -1,0 +1,52 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Editor.gd" type="Script" id=2]
+[ext_resource path="res://Items/SelectMenu.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Grid_visualizer.gd" type="Script" id=5]
+
+[sub_resource type="Theme" id=1]
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.596078, 0.592157, 0.6, 0.619608 )
+corner_detail = 19
+
+[node name="Main" type="Node2D"]
+
+[node name="Grid_visualizer" type="Node2D" parent="."]
+script = ExtResource( 5 )
+
+[node name="Editor" type="Node2D" parent="."]
+script = ExtResource( 2 )
+cell_size = Vector2( 32, 32 )
+map_size = Vector2( 32, 12 )
+
+[node name="Sprite" type="Sprite" parent="Editor"]
+centered = false
+
+[node name="PopupDialog" type="PopupDialog" parent="Editor"]
+margin_right = 235.0
+margin_bottom = 65.0
+theme = SubResource( 1 )
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timer" type="Timer" parent="Editor/PopupDialog"]
+one_shot = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Editor/PopupDialog"]
+margin_left = 13.4898
+margin_top = 25.4898
+margin_right = 221.49
+margin_bottom = 58.4898
+custom_colors/default_color = Color( 0.729412, 0.211765, 0.211765, 1 )
+text = "Cannot place overlapped object!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemMenu" parent="." instance=ExtResource( 3 )]
+
+[node name="Room" type="Node2D" parent="."]
+[connection signal="timeout" from="Editor/PopupDialog/Timer" to="Editor" method="_on_Timer_timeout"]
