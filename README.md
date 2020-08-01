@@ -22,7 +22,7 @@ Press `delete` to change the cursor sprite to the trash bin icon, while the `del
 
 ## Implementation Details
 Code structure:
-![code structure](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/structure1.png)
+![code structure](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/structure01.png)
 
 Godot engine offers a lot of pre-defined classes that can be instantiated, extended or cuztomized then.
 The `Main` is a basic `Node` class, which demonstrate the main scene of the project.
@@ -40,6 +40,7 @@ The `Item_object` stores 2 textures of one item which will be used for the mouse
 The function `_item_clicked` will be triggered when the item in `ItemMenu` is clicked. It will deliver textures and instantiable node of the selected item to the `Editor` for further calculation and updating.
 
 The whole process of placing an item on the grid map can be described as:
+<br/>
 ![item placement logics](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/item_placement.png)
 
 
