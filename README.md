@@ -61,5 +61,7 @@ I can imagine that for a huge project, the code architecture can be complex and 
 ###### OOP design
 Since Godot has offered all those useful well-designed classes, I do not need to write them on my own, but I did get some inspiration for what kind of classes are necessary or helpful for a level editor. So next time if I need to implement the same or similar functions using another engine or even I need to write part of a new engine, I know what classes I need to design and create then.
 
+Besides, the selection of pre-defined classes and the implementation of extending my chosen classes also gave me the practice of how to write the gameplay with existed classes offered by an engine or written by others in the future.
+
 ###### Interactions between scripting language and base part
-Besides, I learned how the scripts connect to and interact with the base classes which were commonly written in other languages (like C++ or C#). I learned the built-in scripting language gd-script within one day and then can smoothly write codes using it. I believe this shows that I can acquire sufficient fluency of one new scripting language (like Lua or Go) in a short time, then start to use it in the working project on hand in the future.
+I learned how the scripts connect to and interact with the base classes which were commonly written in other languages (like C++ or C#). I learned the built-in scripting language gd-script within one day and then can smoothly write codes using it. I believe this shows that I can acquire sufficient fluency of one new scripting language (like Lua or Go) in a short time, then start to use it in the working project on hand in the future.
