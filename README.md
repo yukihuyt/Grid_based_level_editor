@@ -54,7 +54,7 @@ The whole process of placing an item on the grid map can be described as:
 
 ## What I learnt
 ###### Gameplay code architecture
-With this small demo project, I have my first impression of how we should design the code structure of gameplay for a possible simulation or tycoon game. Although this is a small project, if needed, we can extend this level editor's structure with new classes or inherit and extend current classes as well for a whole indie game or game with level editor as the main part. 
+With this small demo project, I have my first impression of how I should design the code structure of gameplay for a possible simulation or tycoon game. Although this is a small project, if needed, we can extend this level editor's structure with new classes or inherit and extend current classes as well for a whole indie game or game with level editor as the main part. 
 
 I can imagine that for a huge project, the code architecture can be complex and massive. But with this experience, I have more confidence to try to build a larger, more complicated and robust one in the future.
 
