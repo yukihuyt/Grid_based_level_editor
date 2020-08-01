@@ -37,7 +37,7 @@ In this demo, the `Main` contains 4 parts:
 
 - The `Grid_visualizer` draws lines to show the grid map;
 - The `Room` shows the placed items on the top;
-- The `Editor` was the 'logic layer' which contains the implementation of the grid map system, the item placement a deletion function and data structures storing the information of grid map and placed item.
+- The `Editor` is the 'main logic layer' which contains the implementation of the grid map system, the item placement and deletion function, and data structures storing the information of grid map and placed item.
 - The `ItemMenu` implements the menu on the bottom, which presents the selectable items, and allows user to select the item from the menu. 
 
 The `ItemMenu` includes a `TabContainer` which contains the 3 tabs. Each tab contains a tab button, and a scrollable container which then stores and shows the items in this tab.
