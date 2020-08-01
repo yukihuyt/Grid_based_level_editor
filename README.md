@@ -6,10 +6,10 @@ To try and maybe modify it then apply to your own project, you first need to dow
 
 Here's what I got as results:
 Select the object from Item Menu, mouse left click on the available area on grid map to place an object. If overlapping detect, an alert massage will pop up and placement not allowed.
-![results showcase 01](./doc_recourses/001.gif)
+![results showcase 01](yukihuyt/Grid_based_level_editor/blob/master/doc_resources/001.gif)
 
 Press `delete` to change the cursor sprite to the trash bin icon, while the `delete` is pressed, mouse left click on an existed object will remove it from current grid map.
-![results showcase 02](./doc_recourses/002.gif)
+![results showcase 02](yukihuyt/Grid_based_level_editor/blob/master/doc_resources/002.gif)
 
 
 
