@@ -30,8 +30,9 @@ Press `delete` to change the cursor sprite to the trash bin icon, while the `del
 Code structure:
 ![code structure](/docs/structure01.png)
 
-Godot engine offers a lot of pre-defined classes that can be instantiated, extended or cuztomized then.
-The `Main` is a basic `Node` class, which demonstrate the main scene of the project.
+Godot engine offers a lot of pre-defined classes that can be instantiated, extended or customized then. The nested relationship of the tree-like structure shown in the image above can be considered as leaf nodes be instantiated as features of root note.
+
+The `Main` is a basic `Node` class, also the root node of the whole tree structure, which demonstrates the main scene of the project.
 
 In this demo, the `Main` contains 4 parts:
 
