@@ -12,7 +12,7 @@ Here's what I got as results:
 Select the object from Item Menu, mouse left click on the available area on the grid map to place an item. If overlapping detects, an alert message will pop up and placement not allowed.
 <br/>
 
-![results showcase 01](https://github.com/yukihuyt/Grid_based_level_editor/blob/master/doc_resources/001.gif)
+![results showcase 01](/doc_resources/001.gif)
 
 <br>
 

@@ -128,7 +128,7 @@ func _process(delta):
 			current_item = null
 			cursor_sprite.texture = null
 	
-	#first remove the current cursor sprite when press delete
+	#when press delete, first remove the current cursor sprite
 	if Input.is_action_just_pressed("delete"):
 		if(current_item):
 			current_item = null
