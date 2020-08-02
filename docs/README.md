@@ -10,7 +10,7 @@ To try and maybe modify it then apply to your own project, you first need to dow
 
 Here's what I got as results:
 Select the object from Item Menu, mouse left click on the available area on the grid map to place an item. If overlapping detects, an alert message will pop up and placement not allowed.
-<br/>
+<br>
 
 ![results showcase 01](001.gif)
 
@@ -65,3 +65,6 @@ Besides, the selection of pre-defined classes and the implementation of extendin
 
 ###### Interactions between scripting language and base part
 I learned how the scripts connect to and interact with the base classes which were commonly written in other languages (like C++ or C#). I learned the built-in scripting language gd-script within one day and then can smoothly write codes using it. I believe this shows that I can acquire sufficient fluency of one new scripting language (like Lua or Go) in a short time, then start to use it in the working project on hand in the future.
+
+<br>
+<br>
