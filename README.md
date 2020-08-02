@@ -12,7 +12,7 @@ Here's what I got as results:
 Select the object from Item Menu, mouse left click on the available area on the grid map to place an item. If overlapping detects, an alert message will pop up and placement not allowed.
 <br>
 
-![results showcase 01](001.gif)
+![results showcase 01](/docs/001.gif)
 
 <br>
 
@@ -20,7 +20,7 @@ Press `delete` to change the cursor sprite to the trash bin icon, while the `del
 
 <br>
 
-![results showcase 02](002.gif)
+![results showcase 02](/docs/002.gif)
 
 
 <br>
@@ -28,7 +28,7 @@ Press `delete` to change the cursor sprite to the trash bin icon, while the `del
 
 ## Implementation Details
 Code structure:
-![code structure](structure01.png)
+![code structure](/docs/structure01.png)
 
 Godot engine offers a lot of pre-defined classes that can be instantiated, extended or cuztomized then.
 The `Main` is a basic `Node` class, which demonstrate the main scene of the project.
@@ -48,7 +48,7 @@ The function `_item_clicked` will be triggered when the item in `ItemMenu` is cl
 The whole process of placing an item on the grid map can be described as:
 <br>
 
-![item placement logics](item_placement.png)
+![item placement logics](/docs/item_placement.png)
 
 <br>
 
