@@ -4,10 +4,6 @@ This is a tiny demo made by [Godot engine](https://godotengine.org/) to check wh
 
 Thanks to [GDQuest](https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ), which is an amazing channel upload videos frequently about basic and pro knowledge of Godot, along with some interesting little projects. I learned a lot by watching their videos and if you are confused about how to start learning Godot, go check their channel!
 
-
-#### Try the demo!
-To try and maybe modify it then apply to your own project, you first need to download and install the open-source [Godot game engine](https://godotengine.org/download/windows). Then import the `project.godot` file into the engine. Then you can open and test the project in Godot.
-
 Here's what I got as results:
 Select the object from Item Menu, mouse left click on the available area on the grid map to place an item. If overlapping detects, an alert message will pop up and placement not allowed.
 <br>
@@ -66,6 +62,11 @@ Besides, the selection of pre-defined classes and the implementation of extendin
 
 ###### Interactions between scripting language and base part
 I learned how the scripts connect to and interact with the base classes which were commonly written in other languages (like C++ or C#). I learned the built-in scripting language gd-script within one day and then can smoothly write codes using it. I believe this shows that I can acquire sufficient fluency of one new scripting language (like Lua or Go) in a short time, then start to use it in the working project on hand in the future.
+
+<br>
+
+#### Want to try the demo?
+To try and maybe modify it then apply to your own project, you first need to download and install the open-source [Godot game engine](https://godotengine.org/download/windows). Then import the `project.godot` file into the engine. Then you can open and test the project in Godot.
 
 <br>
 <br>
