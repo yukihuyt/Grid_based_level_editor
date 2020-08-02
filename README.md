@@ -12,6 +12,8 @@ Here's what I got as results:
 Select the object from Item Menu, mouse left click on the available area on the grid map to place an item. If overlapping detects, an alert message will pop up and placement not allowed.
 <br>
 
+<p align="left"><img src="https://anonymous.4open.science/r/d48c9a4a-2836-4dfe-8536-555fb7a259e8/001.gif" /> </p>
+
 ![results showcase 01](https://anonymous.4open.science/r/d48c9a4a-2836-4dfe-8536-555fb7a259e8/001.gif)
 
 <br>
