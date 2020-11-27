@@ -1,6 +1,6 @@
-# Grid Based 2D Level Editor Demo :space_invader:
+# Grid Based 2D Level Editor Prototype :space_invader:
 
-This is a tiny demo made by [Godot engine](https://godotengine.org/) to check what I learned about Godot from scratch in 12 days, and definitely, to have fun :wink: The idea of this demo's UX and functionality design was inspired by a lot simulation or tycoon games.
+This is a tiny prototype made by [Godot engine](https://godotengine.org/) to check what I learned about Godot from scratch in 12 days, and definitely, to have fun :wink: The idea of this prototype's UX and functionality design was inspired by a lot simulation or tycoon games.
 
 Thanks to [GDQuest](https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ), which is an amazing channel upload videos frequently about basic and pro knowledge of Godot, along with some interesting little projects. I learned a lot by watching their videos and if you are confused about how to start learning Godot, go check their channel!
 
@@ -30,7 +30,7 @@ Godot engine offers a lot of pre-defined classes that can be instantiated, exten
 
 The `Main` is a basic `Node` class, also the root node of the whole tree structure, which demonstrates the main scene of the project.
 
-In this demo, the `Main` contains 4 parts:
+In this prototype, the `Main` contains 4 parts:
 
 - The `Grid_visualizer` draws lines to show the grid map;
 - The `Room` shows the placed items on the top;
@@ -51,7 +51,7 @@ The whole process of placing an item on the grid map can be described as:
 
 ## What I learnt
 ###### Gameplay code architecture
-With this small demo project, I have my first impression of how I should design the code structure of gameplay for a possible simulation or tycoon game. Although this is a small project, if needed, we can extend this level editor's structure with new classes or inherit and extend current classes as well for a whole indie game or game with level editor as the main part. 
+With this small prototype project, I have my first impression of how I should design the code structure of gameplay for a possible simulation or tycoon game. Although this is a small project, if needed, we can extend this level editor's structure with new classes or inherit and extend current classes as well for a whole indie game or game with level editor as the main part. 
 
 I can imagine that for a huge project, the code architecture can be complex and massive. But with this experience, I have more confidence to try to build a larger, more complicated and robust one in the future.
 
@@ -65,7 +65,7 @@ I learned how the scripts connect to and interact with the base classes which we
 
 <br>
 
-#### Want to try the demo?
+#### Want to try the prototype?
 To try and maybe modify it then apply to your own project, you first need to download and install the open-source [Godot game engine](https://godotengine.org/download/windows). Then import the `project.godot` file into the engine. Then you can open and test the project in Godot.
 
 <br>
